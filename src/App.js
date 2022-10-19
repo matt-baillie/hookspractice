@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import { UseState } from "./components/UseState";
 import { UseEffect } from "./components/UseEffect";
 import { UseMemo } from "./components/UseMemo";
+import { UseRef } from "./components/UseRef";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Route path="useeffect" element={<UseEffect />} />
           <Route path="usememo" element={<UseMemo />} />
           <Route path="usecontext" />
-          {/* <Route path="useref" element={</>}/> */}
+          <Route path="useref" element={<UseRef />} />
           <Route path="usereducer" />
           <Route path="usetransition" />
         </Route>

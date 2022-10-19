@@ -6,6 +6,7 @@ export const UseMemo = () => {
   const doubleNumber = useMemo(() => {
     return slowFunction(number);
   }, [number]);
+  //   referential Equality
   const themeStyles = useMemo(() => {
     return {
       backgroundColor: dark ? "black" : "white",
