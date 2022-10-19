@@ -22,8 +22,14 @@ const Header = () => {
         <Link style={link} to="usestate">
           UseState
         </Link>
-        <Link style={link} to="useEffect">
+        <Link style={link} to="useeffect">
           UseEffect
+        </Link>
+        <Link style={link} to="usememo">
+          UseMemo
+        </Link>
+        <Link style={link} to="useref">
+          UseRef
         </Link>
       </div>
     </div>

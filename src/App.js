@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import { UseState } from "./components/UseState";
 import { UseEffect } from "./components/UseEffect";
+import { UseMemo } from "./components/UseMemo";
 
 function App() {
   return (
@@ -11,9 +12,9 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route path="usestate" element={<UseState />} />
           <Route path="useeffect" element={<UseEffect />} />
+          <Route path="usememo" element={<UseMemo />} />
           <Route path="usecontext" />
-          <Route path="useref" />
-          <Route path="usememo" />
+          {/* <Route path="useref" element={</>}/> */}
           <Route path="usereducer" />
           <Route path="usetransition" />
         </Route>
