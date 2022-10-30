@@ -6,10 +6,10 @@ export const UseEffect = () => {
   const [items, setItems] = useState([]);
   //   can you have multiple use effects?
   useEffect(() => {
-    // fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
-    //   .then((response) => response.json())
-    //   .then((json) => setItems(json));
-    // console.log("render");
+    fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
+      .then((response) => response.json())
+      .then((json) => setItems(json));
+    console.log("render");
 
     console.log("resource changed");
     return () => {

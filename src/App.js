@@ -5,6 +5,8 @@ import { UseState } from "./components/UseState";
 import { UseEffect } from "./components/UseEffect";
 import { UseMemo } from "./components/UseMemo";
 import { UseRef } from "./components/UseRef";
+import { CustomHooks } from "./components/CustomHooks";
+import { UseReducer } from "./components/UseReducer";
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
           <Route path="usememo" element={<UseMemo />} />
           <Route path="usecontext" />
           <Route path="useref" element={<UseRef />} />
-          <Route path="usereducer" />
+          <Route path="customhooks" element={<CustomHooks />} />
+          <Route path="usereducer" element={<UseReducer />} />
           <Route path="usetransition" />
         </Route>
       </Routes>
