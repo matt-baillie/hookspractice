@@ -1,4 +1,3 @@
-import { stripBasename } from "@remix-run/router";
 import React, { useState } from "react";
 
 export const CustomHooks = () => {

@@ -39,6 +39,9 @@ const Header = () => {
         <Link style={link} to="usereducer">
           UseReducer
         </Link>
+        <Link style={link} to="usecontext">
+          UseContext
+        </Link>
         <Link style={link} to="customhooks">
           Custom Hooks
         </Link>

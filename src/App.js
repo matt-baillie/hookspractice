@@ -7,6 +7,7 @@ import { UseMemo } from "./components/UseMemo";
 import { UseRef } from "./components/UseRef";
 import { CustomHooks } from "./components/CustomHooks";
 import { UseReducer } from "./components/UseReducer";
+import { UseContext } from "./components/UseContext";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="usestate" element={<UseState />} />
           <Route path="useeffect" element={<UseEffect />} />
           <Route path="usememo" element={<UseMemo />} />
-          <Route path="usecontext" />
+          <Route path="usecontext" element={<UseContext />} />
           <Route path="useref" element={<UseRef />} />
           <Route path="customhooks" element={<CustomHooks />} />
           <Route path="usereducer" element={<UseReducer />} />
